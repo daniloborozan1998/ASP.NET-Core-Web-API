@@ -30,7 +30,7 @@ namespace UserName.Controllers
 
                 if (index >= StaticDb.UserName.Count)
                 {
-                    return StatusCode(StatusCodes.Status404NotFound, $"There is no note with index {index}");
+                    return StatusCode(StatusCodes.Status404NotFound, $"There is no username with index {index}");
                 }
 
                 return StatusCode(StatusCodes.Status200OK, StaticDb.UserName[index]);
@@ -48,12 +48,11 @@ namespace UserName.Controllers
         {
             try
             {
-                // Request -> the HttpRequest that was sent to the action
                 using(StreamReader reader = new StreamReader(Request.Body))
                 {
                     string user = reader.ReadToEnd();
                     StaticDb.UserName.Add(user);
-                    return StatusCode(StatusCodes.Status201Created, "The note was created");
+                    return StatusCode(StatusCodes.Status201Created, "The username was created");
                 }
             }
             catch (Exception e)
@@ -79,11 +78,11 @@ namespace UserName.Controllers
 
                     if (index >= StaticDb.UserName.Count)
                     {
-                        return StatusCode(StatusCodes.Status404NotFound, $"There is no note with index {index}");
+                        return StatusCode(StatusCodes.Status404NotFound, $"There is no username with index {index}");
                     }
 
                     StaticDb.UserName.RemoveAt(index);
-                    return StatusCode(StatusCodes.Status204NoContent, "The note was deleted");
+                    return StatusCode(StatusCodes.Status204NoContent, "The username was deleted");
                 }
             }
             catch (Exception e)

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danilo Borozan\\Desktop\\Homework01\\UserName\\UserName\\UserName.csproj",
+      "projectUniqueName": "C:\\Users\\Danilo Borozan\\Desktop\\Seavus\\ASP.NET-Core-Web-API\\Homework01\\UserName\\UserName\\UserName.csproj",
       "projectName": "UserName",
-      "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Homework01\\UserName\\UserName\\UserName.csproj",
+      "projectPath": "C:\\Users\\Danilo Borozan\\Desktop\\Seavus\\ASP.NET-Core-Web-API\\Homework01\\UserName\\UserName\\UserName.csproj",
       "packagesPath": "C:\\Users\\Danilo Borozan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danilo Borozan\\Desktop\\Homework01\\UserName\\UserName\\obj\\",
+      "outputPath": "C:\\Users\\Danilo Borozan\\Desktop\\Seavus\\ASP.NET-Core-Web-API\\Homework01\\UserName\\UserName\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
