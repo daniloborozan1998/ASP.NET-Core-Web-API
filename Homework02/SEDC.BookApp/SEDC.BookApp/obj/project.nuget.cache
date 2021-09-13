@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "plxZxc1jyZgOBwlSl38murv0lrSHdKJflU3iPC8GQ8fwtFDJ7AHOrXe31o0o0q1OWzdAxG0bsYc/+mqBIEibsw==",
+  "dgSpecHash": "W4V1PlKCD9131W4WFC6S0cq4h2SMUzSt3QdCDGLIELyEaIleHaPCda+rg4C5VTRYfCjphBzp9DVxxm4T5oa0IQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Danilo Borozan\\Desktop\\Homework02\\SEDC.BookApp\\SEDC.BookApp\\SEDC.BookApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Danilo Borozan\\Desktop\\Seavus\\ASP.NET-Core-Web-API\\Homework02\\SEDC.BookApp\\SEDC.BookApp\\SEDC.BookApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danilo Borozan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Danilo Borozan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Danilo Borozan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.1\\swashbuckle.aspnetcore.6.2.1.nupkg.sha512",
+    "C:\\Users\\Danilo Borozan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.1\\swashbuckle.aspnetcore.swagger.6.2.1.nupkg.sha512",
+    "C:\\Users\\Danilo Borozan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.1\\swashbuckle.aspnetcore.swaggergen.6.2.1.nupkg.sha512",
+    "C:\\Users\\Danilo Borozan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.1\\swashbuckle.aspnetcore.swaggerui.6.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -24,6 +24,7 @@ namespace SEDC.BookApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSwaggerGen();
             services.AddControllers();
         }
 
@@ -33,6 +34,11 @@ namespace SEDC.BookApp
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(x =>
+                {
+                    x.SwaggerEndpoint("/swagger/v1/swagger.json", "To Do List API V1");
+                });
             }
 
             app.UseRouting();
@@ -43,6 +49,8 @@ namespace SEDC.BookApp
             {
                 endpoints.MapControllers();
             });
+            app.UseStaticFiles();
+            app.UseDefaultFiles();
         }
     }
 }
